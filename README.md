@@ -6,5 +6,7 @@ Get your Environment Id and your Publishable Key from the Developer Settings in 
 and
 `environment_id="us_env_12345"`
 
+You will add these to your index.html under the `FlatFileJavaScript.startFlatfile()` declaration
+
 After adding your environment id and publishable key you can open the index.html in your browser and get uploading!
 
