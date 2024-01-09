@@ -1,7 +1,7 @@
 This is a JavaScript Project using the simplified configuration for the [Flatfile JavaScript SDK](https://flatfile.com/docs/apps/embedding/javascript/guide)
 
 ### Getting Started
-Get your Environment Id and your Publishable Key from the Developer Settings in your account. These should look like:
+Get your Environment Id and your Publishable Key from the Developer Settings in your account when logged into [platform.flatfile.com](https://platform.flatfile.com). These should look like:
 `publishable_key="pk_12345"`
 and
 `environment_id="us_env_12345"`
