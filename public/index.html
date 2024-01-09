@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hello, world!</title>
-    <script type="module" src="../src/blueprint.js"></script>
-    <script src="https://unpkg.com/@flatfile/javascript@^0.3.1/dist/index.cjs"></script>
+    <script src="../src/blueprint.js"></script>
+    <script src="https://unpkg.com/@flatfile/javascript@^0.3.1/dist/index.js"></script>
     
     <link rel="stylesheet" type="text/css" href="./styles.css" />
   </head>
@@ -13,7 +13,8 @@
     <script>
       window.onload = function () {
         FlatFileJavaScript.startFlatfile({
-          publishableKey: "pk_6e0577bd434b4f989c3add5ad4d9feaf",
+          publishableKey: "pk_12345",
+          environmentId: 'us_env_12345',
           spaceBody: {
             namespace: "portal",
           },
